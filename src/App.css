@@ -227,14 +227,19 @@ Principle grid */
 }
 
 
-.principle-2 .principle-number,
-.principle-4 .principle-number {
-  color: var(--color-secondary);
+.principle-line {
+  width: 28px;
+  height: 1px;
+
+  margin: 12px 0;
+
+  background: var(--color-primary);
+
+  transition: width 200ms ease;
 }
 
-.principle-2 .principle-line,
-.principle-4 .principle-line {
-  background: var(--color-secondary);
+.principle:hover .principle-line {
+  width: 55px;
 }
 
 /* Footer */
@@ -422,23 +427,3 @@ Principle grid */
   }
 }
 
-.sources {
-  margin-top: 20px;
-}
-
-.sources p {
-  margin-bottom: 18px;
-  font-size: 0.85rem;
-  line-height: 1.6;
-}
-
-.sources a {
-  color: var(--color-text);
-  text-decoration: underline;
-  text-decoration-color: var(--color-primary);
-  text-underline-offset: 3px;
-}
-
-.sources a:hover {
-  color: var(--color-primary);
-}
