@@ -348,26 +348,16 @@ Principle grid */
 }
 
 /* Documentation */
-/* =========================
-   DOCUMENTATION
-   ========================= */
+
 
 .documentation-page {
-  width: min(
-    calc(100% - (var(--page-padding) * 2)),
-    900px
-  );
-
-  min-height: 100vh;
-
+  width: min(calc(100% - 80px), 850px);
   margin: 0 auto;
+  min-height: 100vh;
 }
 
-
-/* HEADER */
-
 .documentation-header {
-  min-height: 80px;
+  height: 70px;
 
   display: flex;
   align-items: center;
@@ -375,118 +365,80 @@ Principle grid */
 
   border-bottom: 1px solid var(--color-border);
 
+  font-size: 0.8rem;
   color: var(--color-text-muted);
-
-  font-size: 0.75rem;
 }
 
 .back-link {
   color: var(--color-text);
   text-decoration: none;
-
-  transition: color 180ms ease;
 }
 
 .back-link:hover {
   color: var(--color-primary);
 }
 
-
-/* CONTENT */
-
 .documentation-content {
-  padding: 80px 0 120px;
+  padding: 60px 0 100px;
 }
 
-.documentation-intro {
-  max-width: 700px;
+.documentation-content h1 {
+  margin: 0 0 40px;
 
-  margin-bottom: 100px;
+  font-size: 2.5rem;
 }
 
-.section-label {
-  color: var(--color-primary);
+.documentation-content h2 {
+  margin: 45px 0 12px;
 
-  font-size: 0.75rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
-.documentation-intro h1 {
-  margin: 15px 0 25px;
-
-  font-size: clamp(3rem, 7vw, 5.5rem);
-  line-height: 0.95;
-  letter-spacing: -0.05em;
-}
-
-.documentation-intro h1 span {
-  color: var(--color-primary);
-}
-
-.documentation-intro p {
-  max-width: 580px;
-
-  margin: 0;
-
-  color: var(--color-text-muted);
-
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-
-/* SECTION */
-
-.documentation-section {
-  display: grid;
-
-  grid-template-columns: 100px 1fr;
-
-  gap: 40px;
-
-  padding: 50px 0;
-
-  border-top: 1px solid var(--color-border);
-}
-
-.section-number {
-  color: var(--color-primary);
-
-  font-size: 1rem;
-}
-
-.documentation-section h2 {
-  margin: 0 0 25px;
-
-  font-size: 2rem;
-}
-
-.documentation-section p {
-  max-width: 650px;
+.documentation-content p {
+  margin: 0 0 18px;
 
   color: var(--color-text-muted);
 
   font-size: 0.95rem;
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
-
-/* MOBILE */
+.documentation-content strong {
+  color: var(--color-primary);
+  font-weight: 500;
+}
 
 @media (max-width: 700px) {
+  .documentation-page {
+    width: calc(100% - 40px);
+  }
 
   .documentation-content {
-    padding: 60px 0 80px;
+    padding: 40px 0 70px;
   }
 
-  .documentation-intro {
-    margin-bottom: 60px;
+  .documentation-content h1 {
+    font-size: 2rem;
   }
+}
 
-  .documentation-section {
-    grid-template-columns: 1fr;
+.sources {
+  margin-top: 20px;
+}
 
-    gap: 15px;
-  }
+.sources p {
+  margin-bottom: 18px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.sources a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
+  text-underline-offset: 3px;
+}
+
+.sources a:hover {
+  color: var(--color-primary);
 }

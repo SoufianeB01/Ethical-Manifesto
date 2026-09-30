@@ -12,7 +12,7 @@ const principles = [
     number: '01',
     title: 'Versterk, vervang niet.',
     description:
-      'Technologie moet menselijke mogelijkheden vergroten, niet de mens uit het proces verwijderen.',
+      'Een Digital Human moet naast de mens staan en versterken wat iemand zelf kan, niet diens plek overnemen.',
     position: 'principle-1',
     icon: PersonAddAltOutlinedIcon,
   },
@@ -20,7 +20,7 @@ const principles = [
     number: '02',
     title: 'Begrijp wat je doet.',
     description:
-      'Gemak mag niet betekenen dat mensen het begrip en het leerproces verliezen.',
+      'Een Digital Human moet niet alleen een resultaat geven, maar ook duidelijk maken hoe je daar bent gekomen.',
     position: 'principle-2',
     icon: MenuBookOutlinedIcon,
   },
@@ -28,7 +28,7 @@ const principles = [
     number: '03',
     title: 'Laat iets achter.',
     description:
-      'Goede technologie geeft de gebruiker iets mee: kennis, vaardigheden, zelfvertrouwen of nieuwe kansen.',
+      'Een Digital Human moet iets meegeven zoals kennis, vaardigheden, ervaring of zelfvertrouwen.',
     position: 'principle-3',
     icon: SpaOutlinedIcon,
   },
@@ -36,7 +36,7 @@ const principles = [
     number: '04',
     title: 'Behoud de regie.',
     description:
-      'Technologie mag ondersteunen en adviseren, maar de mens houdt controle over belangrijke keuzes.',
+      'Een Digital Human mag ondersteunen en adviseren, maar de mens houdt de controle en maakt de keuzes.',
     position: 'principle-4',
     icon: ExploreOutlinedIcon,
   },
@@ -44,7 +44,7 @@ const principles = [
     number: '05',
     title: 'Geef iedereen een eerlijke kans.',
     description:
-      'Technologische vooruitgang moet toegankelijk zijn en niemand achterlaten.',
+      'Een Digital Human moet toegankelijk zijn, zodat nieuwe kansen niet alleen bereikbaar zijn voor digitaal vaardige mensen.',
     position: 'principle-5',
     icon: GroupsOutlinedIcon,
   },
@@ -57,7 +57,7 @@ function ManifestPage() {
       <header className="site-header">
         <div className="hero">
           <h1>
-            Zet de <span>mens</span> centraal door AI kansen te laten <span>vergroten</span> in plaats van te <span>verkleinen</span>.
+            Zet de <span>mens</span> centraal door AI kansen te laten <span>vergroten</span> in plaats van te   <span>verkleinen</span>.
           </h1>
 
           <p>
