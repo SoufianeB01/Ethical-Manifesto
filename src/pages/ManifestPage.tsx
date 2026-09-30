@@ -61,7 +61,7 @@ function ManifestPage() {
           </h1>
 
           <p>
-            Technologie moet mensen versterken en verder brengen,
+            Digital humans moeten mensen versterken en verder brengen,
             zonder hen buitenspel te zetten.
           </p>
         </div>
