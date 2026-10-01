@@ -48,6 +48,7 @@
 }
 
 .documentation-link {
+  white-space: nowrap;
   margin-top: 5px;
 
   color: var(--color-text-muted);
